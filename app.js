@@ -1,7 +1,9 @@
 const App = {
     data() {
         return {
-            title: 'Счетчик'
+            title: 'Список заметок',
+            placeholderString: 'Введите название заметки',
+            inputValue: ''
         }
     }
 }
